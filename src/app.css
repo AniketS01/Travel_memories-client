@@ -1,0 +1,73 @@
+.card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 15px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+
+.des {
+  font-size: 15px;
+}
+
+.star {
+  color: gold;
+}
+
+.user {
+  font-size: 15;
+}
+
+.time {
+  font-size: 12;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.sub {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  margin-right: 0.3%;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
